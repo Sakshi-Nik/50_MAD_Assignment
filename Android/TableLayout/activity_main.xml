@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="Subject"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="Marks"
+            android:textStyle="bold"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Maths"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="85"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Science"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="78"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="English"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="90"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Total"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="253"
+            android:textStyle="bold"
+            android:padding="8dp" />
+    </TableRow>
+
+</TableLayout>

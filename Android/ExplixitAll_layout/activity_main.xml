@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:padding="16dp"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="All Layouts"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/horizontal"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Horizontal Layout"/>
+
+    <Button
+        android:id="@+id/Vertical"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Vertical Layout"/>
+
+    <Button
+        android:id="@+id/Relative"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Relative Layout"/>
+
+    <Button
+        android:id="@+id/Table"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Table Layout"/>
+
+    <Button
+        android:id="@+id/Frame"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Frame Layout"/>
+
+    <Button
+        android:id="@+id/List"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="List Layout"/>
+
+    <Button
+        android:id="@+id/Absolute"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Absolute Layout"/>
+
+    <Button
+        android:id="@+id/Constraint"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Constraint Layout"/>
+
+    <Button
+        android:id="@+id/grid"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Grid Layout"/>
+
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Calculator"/>
+
+    <Button
+        android:id="@+id/Bchange"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Button Change"/>
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:text="Profile"/>
+
+</GridLayout>
