@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_marginTop="90dp"/>
+
+    <Button
+        android:id="@+id/btnLongClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Press Me"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtTouch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Touch Here"
+        android:gravity="center"
+        android:background="#cccccc"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
